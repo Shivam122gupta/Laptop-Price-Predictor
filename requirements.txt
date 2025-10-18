@@ -2,3 +2,6 @@ streamlit
 sklearn
 numpy
 pandas
+matplotlib
+seaborn
+pickle
