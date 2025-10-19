@@ -17,7 +17,7 @@ ram = st.selectbox('RAM (GB)', [2,4,6,8,12,16,24,32,64])
 weight = st.number_input('Weight of the Laptop (kg)', 0.5, 5.0, 1.5, 0.1)
 touchscreen = st.selectbox('Touchscreen', ['No', 'Yes'])
 ips = st.selectbox('IPS Display', ['No', 'Yes'])
-screen_size = st.slider('Screen Size (inches)', 10.0, 18.0, 13.0)
+screen_size = st.number_input('Screen Size (inches)', 10.0, 18.0, 13.0)
 resolution = st.selectbox(
     'Screen Resolution',
     ['1920x1080','1366x768','1600x900','3840x2160','3200x1800','2880x1800','2560x1600','2560x1440','2304x1440']
