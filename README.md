@@ -24,7 +24,7 @@ Built using Python and Scikit-learn, this project demonstrates **end-to-end ML w
 📦 Laptop-Price-Predictor
 ├── laptop_data.csv
 ├── laptoppricepredictor.ipynb
-├── app.py
+├── app.py 
 ├── pipe.pkl
 ├── requirements.txt
 └── README.md
